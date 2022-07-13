@@ -1,0 +1,94 @@
+
+
+.ziro{
+    grid-area: ziro;
+}
+
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+#gridbox{
+    min-height: 100vh;
+    max-width: 80vh;
+    display: grid;
+
+    gap: 10px;
+}
+.hub{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 50vh 5rem;
+    grid-template-areas: "ziro ziro ziro"
+                         "one  one  one"
+                         "two  three four";
+}
+.prais{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20VH 20VH;
+    grid-template-areas: "five six seven eight"
+                         "cat  dog   maus  ara";
+}
+.four > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.two>img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.three>img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.one>img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.prais  img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.cat{
+    grid-area: cat;
+}
+.dog{
+    grid-area: dog;
+}
+.ara{
+    grid-area: ara;
+}
+.maus{
+    grid-area: maus;
+}
